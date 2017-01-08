@@ -15,7 +15,7 @@ app.get('/',function(req,res){
         res.render('index',{movies});
     });
 });
-app.listen(9090);
+app.listen(80);
 
 let CronJob  = require('cron').CronJob;
 let main = require('./tasks/main');
